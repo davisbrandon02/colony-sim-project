@@ -1,0 +1,42 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+_global_script_classes=[{
+"base": "Area2D",
+"class": &"Building",
+"language": &"GDScript",
+"path": "res://objects/Building.gd"
+}, {
+"base": "Resource",
+"class": &"BuildingData",
+"language": &"GDScript",
+"path": "res://scripts/BuildingData.gd"
+}, {
+"base": "Node2D",
+"class": &"Grid",
+"language": &"GDScript",
+"path": "res://scripts/Grid.gd"
+}]
+_global_script_class_icons={
+"Building": "",
+"BuildingData": "",
+"Grid": ""
+}
+
+[application]
+
+config/name="Colony Sim"
+run/main_scene="res://scenes/Game.tscn"
+config/features=PackedStringArray("4.0", "Vulkan Mobile")
+config/icon="res://icon.svg"
+
+[rendering]
+
+vulkan/rendering/back_end=1

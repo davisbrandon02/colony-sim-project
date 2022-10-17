@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://ck1g80sy0t1mu"]
+
+[ext_resource type="Script" path="res://scripts/BuildingData.gd" id="1_rnyr6"]
+[ext_resource type="Texture2D" uid="uid://c6ff15rva3l5a" path="res://icon.svg" id="2_mli86"]
+
+[resource]
+script = ExtResource("1_rnyr6")
+width = 1
+height = 1
+texture = ExtResource("2_mli86")
+name = "House"

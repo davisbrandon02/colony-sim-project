@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://do2j7ru303f36"]
+
+[ext_resource type="Script" path="res://objects/Building.gd" id="1_hmpm5"]
+
+[node name="Building" type="Area2D"]
+script = ExtResource("1_hmpm5")
+
+[node name="Sprite" type="Sprite2D" parent="."]
